@@ -1,0 +1,13 @@
+{
+    "name": "spenserhale/youtube-channel-gallery",
+    "description": "WordPress Plugin to show a YouTube video and a gallery of thumbnails for a YouTube channel.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Spenser Hale",
+            "email": "spenserhale@outlook.com"
+        }
+    ],
+    "require": {}
+}

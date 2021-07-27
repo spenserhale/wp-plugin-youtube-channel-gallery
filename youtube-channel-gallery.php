@@ -1204,7 +1204,9 @@ class YoutubeChannelGallery_Widget extends WP_Widget {
 } // class YoutubeChannelGallery_Widget
 
 // register YoutubeChannelGallery_Widget widget
-add_action( 'widgets_init', create_function( '', 'register_widget( "YoutubeChannelGallery_Widget" );' ) );
+add_action( 'widgets_init', static function() {
+    register_widget(YoutubeChannelGallery_Widget::class);
+};
 
   function toTag($s) {
     return 'restrict_' . str_replace(' ', '_', strtolower($s));
